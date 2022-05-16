@@ -1,5 +1,21 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
+  align-items: center;
+}
+.Links{
+  display: flex;
+  gap: 35px;
+}
+button{
+  height: 36px;
+    width: 100px;
+    border-radius: 23px;
+    background-color:#0187a5;
+    color: white;
 }
 
 .App-logo {
